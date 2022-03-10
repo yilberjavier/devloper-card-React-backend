@@ -1,0 +1,31 @@
+###
+POST http://localhost:8080/api/user HTTP/1.1
+content-type: application/json
+
+{
+    "url": "https://images.pexels.com/photos/5882683/pexels-photo-5882683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "name": "Nicolas",
+    "email": "nicolas@gmaswevil.com",
+    "description": "desarrollador movil with ReactNative"
+}
+
+###
+GET http://localhost:8080/api/users HTTP/1.1
+
+###
+PUT http://localhost:8080/api/user/6224c6f9e52b0f64b25f6c2c HTTP/1.1
+content-type: application/json
+
+{
+    "url": "https://images.pexels.com/photos/871495/pexels-photo-871495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "name": "Melissa Salgado",
+    "email": "melissa@gmail.com",
+    "description": "desarrolladorea frontend html, css, and javascript"
+}
+
+###
+DELETE http://localhost:8080/api/user/6224c954ebf2505a4612ef9e HTTP/1.1
+
+
+
+
